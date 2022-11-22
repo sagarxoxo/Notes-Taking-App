@@ -1,0 +1,28 @@
+
+
+.singleNotsSection .thubmnailImg{
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 100%;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+.singleNotsSection .notesTitleStyle{
+    margin-top: 20px;
+}
+
+.singleNotsSection .descStyle{
+    margin: 20px 0px 40px 0px;
+}
+
+.warning{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    color: #041035;
+    opacity: 0.4;
+}
+

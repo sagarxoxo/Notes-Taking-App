@@ -1,0 +1,147 @@
+.crtn a {
+    text-decoration: none;
+    color: #041035;
+}
+.notesConatiner{
+    padding: 20px 40px;
+}
+
+.createNewCard{
+    border: 4px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 50px;
+    min-height: 360px;
+    margin: 20px 0px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.createNewCard p{
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.bookCard{
+    border-radius: 10px;
+    position: relative;
+    min-height: 360px;
+    margin: 20px 0px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.bookCard img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    object-fit: cover;
+    max-height: 200px;
+}
+
+.bookCard .innerCard{
+    padding: 20px;
+}
+
+.bookCard div h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.cardBtns{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.cardBtns button:first-child{
+   width: 100%;
+   margin-right: 10px;
+   background-color: #04103560;
+   border: 0px;
+}
+
+.cardBtns button:last-child{
+    width: 100%;
+    margin-left: 10px;
+    background-color: #041035;
+ }
+
+ .topRightDelete{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+ }
+
+ .BSIcon{
+     color: #041035;
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+     font-size: 24px;
+    cursor: pointer;
+ }
+
+ .BSIcon:hover{
+    font-size: 26px;
+ }
+
+ .noImg{
+     background-color: rgb(229, 229, 255);
+     height: 200px;
+     color: #9bb6ff;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.noLoginDeisgn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    color: #041035;
+    opacity: 0.4;
+}
+
+.btn-primary a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .bookCard .innerCard {
+        padding: 10px;
+    }
+
+    .bookCard div h2 {
+        font-size: 20px;
+    }
+
+    .bookCard div p {
+        font-size: 16px;
+    }
+
+    .cardBtns {
+        display: flex;
+        padding-top: 10px;
+        flex-direction: column;
+    }
+
+    .cardBtns button:first-child {
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+
+    .cardBtns button:last-child {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .bookCard {
+        height: 95%;
+    }
+}

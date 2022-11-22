@@ -1,0 +1,29 @@
+
+.footer{
+    background-color: #2E4EE9;
+    padding: 40px;
+    bottom:0%;
+    width: 100%;
+}
+
+
+.footerNavigation{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footerNavigation span{
+    padding-right: 20px;
+}
+
+.cop{
+    color: white;
+    padding: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        padding:20px;
+    }
+}

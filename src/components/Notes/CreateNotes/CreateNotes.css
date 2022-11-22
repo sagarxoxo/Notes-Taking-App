@@ -1,0 +1,144 @@
+.crContainer{
+    padding: 40px 80px;
+}
+
+.editorSection{
+    margin: 40px;
+    padding: 40px;
+    border-radius: 6px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.infoSection{
+    margin: 40px;
+    padding: 40px;
+    border-radius: 6px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.form-control{
+    margin: 14px 0px 26px 0px;
+}
+
+.primaryBtnCR{
+    background-color: #2E4EE9;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.infoSection label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input[type=file]::file-selector-button {
+    background-color: #2E4EE9;
+    color: #ffffff;
+}
+
+input[type=file]::file-selector-button:hover {
+    background-color: #2E4EE9;
+}
+
+.shadow-sm{
+    height: 600px;
+}
+
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+    border-top: 0px;
+    height: 450px;
+}
+
+.crContainer .title{
+    margin-left: 40px;
+}
+
+
+.crContainer .noLoginDeisgn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    color: #ffffff;
+    width: 100%;
+    opacity: 0.9;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #041035;
+}
+
+.primaryBtn{
+    background-color: #2E4EE9;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.btnChange{
+    background-color: white;
+    color: #041035;
+    border: 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.btnChange:hover{
+    background-color: white;
+    color: #041035;
+    border: 0px;
+}
+
+.btnChange a{
+    text-decoration: none;
+}
+
+.btnChange p{
+    color:#041035;
+}
+
+.primaryBtn p{
+    color:#ffffff;
+}
+
+.primaryBtn a {
+    text-decoration: none;
+}
+
+.vi p{
+    color: #ffffff;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px) {
+    .crContainer {
+        padding: 20px 0px;
+    }
+    .editorSection {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .ql-toolbar.ql-snow + .ql-container.ql-snow {
+        height: 250px;
+    }
+
+    .infoSection {
+        margin: 20px;
+        padding: 20px;
+    }
+}
